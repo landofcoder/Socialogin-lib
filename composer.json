@@ -1,9 +1,7 @@
 {
 	"name": "lof/sociallogin-lib",
 	"description": "N/A",
-	"require": {
-		"php": ">=5.4.0",
-	},
+	"require": {},
 	"type": "library",
 	"version": "1.0.0"
 }
