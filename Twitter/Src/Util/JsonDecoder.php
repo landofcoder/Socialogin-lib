@@ -1,5 +1,6 @@
 <?php
-namespace Lof\SocialLogin\Model\Twitter\Src\Util;
+
+namespace Abraham\TwitterOAuth\Util;
 
 /**
  * @author louis <louis@systemli.org>

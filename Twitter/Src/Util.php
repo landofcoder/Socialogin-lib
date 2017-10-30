@@ -3,7 +3,7 @@
  * The MIT License
  * Copyright (c) 2007 Andy Smith
  */
-namespace Lof\SocialLogin\Model\Twitter\Src;
+namespace Abraham\TwitterOAuth;
 
 class Util
 {
@@ -38,13 +38,13 @@ class Util
      * parameters like this
      * array('a' => array('b','c'), 'd' => 'e')
      *
-     * @param mixed $input
+     * @param string $input
      *
      * @return array
      */
     public static function parseParameters($input)
     {
-        if (!isset($input) || !$input) {
+        if (!is_string($input)) {
             return [];
         }
 
@@ -75,13 +75,13 @@ class Util
     }
 
     /**
-     * @param $params
+     * @param array $params
      *
      * @return string
      */
-    public static function buildHttpQuery($params)
+    public static function buildHttpQuery(array $params)
     {
-        if (!$params) {
+        if (empty($params)) {
             return '';
         }
 

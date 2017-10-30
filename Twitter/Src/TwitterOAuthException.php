@@ -1,6 +1,6 @@
 <?php
 
-namespace Lof\SocialLogin\Model\Twitter\Src;
+namespace Abraham\TwitterOAuth;
 
 /**
  * @author Abraham Williams <abraham@abrah.am>

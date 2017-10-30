@@ -3,7 +3,7 @@
  * The MIT License
  * Copyright (c) 2007 Andy Smith
  */
-namespace Lof\SocialLogin\Model\Twitter\Src;
+namespace Abraham\TwitterOAuth;
 
 class Token
 {

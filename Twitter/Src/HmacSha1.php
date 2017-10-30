@@ -3,8 +3,8 @@
  * The MIT License
  * Copyright (c) 2007 Andy Smith
  */
-namespace Lof\SocialLogin\Model\Twitter\Src; 
-use Lof\SocialLogin\Model\Twitter\Src\SignatureMethod;
+namespace Abraham\TwitterOAuth;
+
 /**
  * The HMAC-SHA1 signature method uses the HMAC-SHA1 signature algorithm as defined in [RFC2104]
  * where the Signature Base String is the text and the key is the concatenated values (each first

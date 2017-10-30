@@ -1,6 +1,6 @@
 <?php
 
-namespace Lof\SocialLogin\Model\Twitter\Src;
+namespace Abraham\TwitterOAuth;
 
 /**
  * Handle setting and storing config for TwitterOAuth.
